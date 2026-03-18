@@ -1,0 +1,191 @@
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 35px 480px 50px 521px;
+    top:832px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    position:absolute;
+}
+
+.text p{
+    position: fixed;
+    top: -6%;
+    right: 0;
+    left: 0;
+    gap: 200px;
+    padding: 1em 0;
+    margin: 200px;
+    color: rgb(0, 0, 0) !important;
+    font-size: 250%;
+    z-index: 99999;
+    animation: rosa 3s
+}
+p{
+    font-family: "Irish Grover";
+}
+@keyframes rosa{
+    0%{
+        transform: rotate(0deg);
+    }
+    39%{
+        transform: rotate(90deg);
+        transform: translateY(300px);
+    }
+    50%{
+        
+        transform: rotate(-800deg);
+
+    }
+    80%{
+        transform: translateY(-40px);
+        transform: rotate(800deg);;
+    }
+    85%{
+        transform: scale(200%)
+    }
+    100%{
+        transform: scale(100%);
+    }
+}
+    .internos p{
+        position: fixed;
+        top: 18%;
+        right: 0;
+        left: 0;
+        gap: 200px;
+        padding: 1em 0;
+        margin: 200px;
+        color: rgb(0, 0, 0) !important;
+        font-size: 250%;
+        z-index: 99999;
+        animation: rosa 3s
+    }
+    .externos p{
+        position: fixed;
+        top: -56%;
+        right: 0;
+        left: 0;
+        padding: 1em 0;
+        margin: 900px;
+        color: rgb(0, 0, 0) !important;
+        font-size: 250%;
+        z-index: 99999;
+        animation: rosa 3s
+    }
+    .consumiciones p{
+        position: fixed;
+        top: -119%;
+        right: 0;
+        left: 0;
+        gap: 200px;
+        padding: 1em 0;
+        margin: 1500px;
+        color: rgb(0, 0, 0) !important;
+        font-size: 250%;
+        z-index: 99999;
+        animation: rosa 3s;
+    }
+
+    .preciointernos p{
+        position: fixed;
+        top: 20%;
+        right: 0;
+        left: 0;
+        gap: 200px;
+        padding: 1em 0;
+        margin: 265px;
+        color: rgb(255, 255, 255) !important;
+        font-size: 250%;
+        z-index: 99999;
+        animation: rosa 3s
+    }
+
+    .precioexternos p{
+        position: fixed;
+        top: -54%;
+        right: 0;
+        left: 0;
+        padding: 1em 0;
+        margin: 965px;
+        color: rgb(255, 255, 255) !important;
+        font-size: 250%;
+        z-index: 99999;
+        animation: rosa 3s
+    }
+
+    .precioconsumiciones p{
+        position: fixed;
+        top: -110%;
+        right: 0;
+        left: 0;
+        gap: 200px;
+        padding: 1em 0;
+        margin: 1495px;
+        color: rgb(255, 255, 255) !important;
+        font-size: 250%;
+        z-index: 99999;
+        animation: rosa 3s;
+        width: 3000px;
+    }
+
+    .alerta p{
+        position: fixed;
+        top: 5%;
+        right: 0;
+        left: 0;
+        padding: 1em 0;
+        margin: 650px;
+        color: rgb(0, 0, 0) !important;
+        font-size: 150%;
+        z-index: 99999;
+        width: 3000px;
+        animation: rosa 3s
+    }
+
+    .back2{
+        position: fixed;
+        top: -7%;
+        right: 0;
+        left: 0;
+        width: 3%;
+        gap: 150px;
+        padding: 1em 0;
+        margin: 80px;
+        color: rgb(0, 0, 0) !important;
+        font-size: 100%;
+        z-index: 99999;
+    }
+
+    .cesuga{
+        position: fixed;
+    top: 65%;
+    right: 0;
+    left: 0;
+    width: 2%;
+    gap: 150px;
+    padding: 1em 0;
+    margin: 250px;
+    color: rgb(0, 0, 0) !important;
+    font-size: 10%;
+    z-index: 99999;
+    }
+
+    .footer {
+        position: fixed;
+    top: 65%;
+    right: 0;
+    left: 0;
+    width: 2%;
+    gap: 150px;
+    padding: 1em 0;
+    margin: 250px;
+    color: rgb(0, 0, 0) !important;
+    font-size: 10%;
+    z-index: 99999;
+    }
